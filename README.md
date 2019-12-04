@@ -8,7 +8,7 @@ To start project, run:
 docker-compose up
 ```
 
-The API will then be available at http://127.0.0.1:8000
+The API will then be available at http://127.0.0.1:8000.
 All migrations and models are in core app. 35 Tests has been written for this project. Authentication is handled. 
 
 | description  |      route      |  test |
@@ -22,7 +22,7 @@ All migrations and models are in core app. 35 Tests has been written for this pr
 | api root for order detail | http://127.0.0.1:8000/api/order/detail/id/| retrieve, update && delete |
 | create retrieve list  order  | http://127.0.0.1:8000/api/order/order/ | filter is also here |
 | delete update order | http://127.0.0.1:8000/api/order/order/id/ | retrieve, update && delete |
-| retrieve update status | http://127.0.0.1:8000/api/order/order/1/status| retrieve && update |
+| retrieve update status | http://127.0.0.1:8000/api/order/order/id/status| retrieve && update |
 | validate status | http://127.0.0.1:8000/api/order/order/id | you cannot update an order if status is in 3,4,5 (out for delivery, delivered, returned) |
 
 
